@@ -1,6 +1,17 @@
-.h1{
+html{
     font-family: 'Segoe UI';
+    color: white;
+    margin: 0;
+}
+body{
+    margin: 0;
 }
 .html{
     background-color: #202020;
+}
+.backgroundSegment{
+    background-color: #202020;
+    height: 100%;
+    width: 100%;
+    padding: 0;
 }
