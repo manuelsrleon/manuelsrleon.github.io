@@ -1,0 +1,47 @@
+[
+    {
+        "title": "harmony",
+        "subtitle": "Angular-based music library manager.",
+        "description": "Angular-based music library manager.",
+        "banner-background": "N/A" ,
+        "logo": "N/A",
+        "video": "N/A",
+        "tags": [
+            "Angular","Spring"
+        ]        
+    },
+    {
+        "title": "COVIDLog Desktop",
+        "subtitle": "Gtk-based music library manager.",
+        "description": "Angular-based music library manager.",
+        "banner-background": "N/A" ,
+        "logo": "N/A",
+        "video": "N/A",
+        "tags": [
+            "Gtk4.0","Python"
+        ]        
+    },
+    {
+        "title": "COVIDLog Mobile",
+        "subtitle": "Q-based music library manager.",
+        "description": "Angular-based music library manager.",
+        "banner-background": "N/A" , 
+        "logo": "N/A",
+        "video": "N/A",
+        "tags": [
+            "Flutter","Dart"
+        ]        
+    },
+    {
+        "title": "COVIDLog Web",
+        "subtitle": "Q-based music library manager.",
+        "description": "Angular-based music library manager.",
+        "banner-background": "N/A" ,
+        "logo": "N/A",
+        "video": "N/A",
+        "tags": [
+            "Vanilla JS","HTML+CSS"
+        ]        
+    }
+
+]

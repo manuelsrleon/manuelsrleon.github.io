@@ -1,0 +1,312 @@
+html{
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    background-color: #202020;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+}
+.background-segment{
+    display:block;
+    margin:0;
+    background-color: #202020;
+
+    height: 100vh;
+    padding: 0;
+}
+.background-2-3-segment{
+    display:block;
+    margin:0;
+    background-color: #202020;
+
+    height: 66vh;
+    padding: 0;
+}
+.background-half-segment{
+    display:block;
+    margin:0;
+    background-color: #202020;
+
+    height: 33vh;
+    padding: 0;
+}
+#splash-segment{
+    display: flex;
+    align-items: center;
+}
+/* canvas{
+    background-color: tomato;
+} */
+#splash-text{
+    position:absolute;
+    bottom: 20%;
+    right: 5%;
+    max-width:100%;
+    text-align: right;
+}
+
+.triangle{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-bottom: 5vw solid #fff;
+    border-left: 5vw solid transparent;
+}
+h2,h5{
+    font-size: 30pt;
+    margin: 0;
+    padding: 50px;
+}
+#presentation-segment{
+    background-color: #202020;
+    color: white;
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.textbody{
+    font-size:1.5em;
+    
+    color:white;
+    margin: 5%;
+}
+h1{
+    margin: 0;
+    padding: 30px;
+    font-size: 6em;
+}
+
+
+.text-container-flex{
+    display:flex;
+    flex-direction:column;
+}
+
+
+.text{
+    font-size:2vh;
+}
+#studies-segment{
+    color: white;
+    padding:5%;
+}
+#studies-chrono{
+    display: flex;
+    overflow-x: auto;
+    
+    flex-direction: row;
+    
+    
+}
+.studies-degree{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    align-items: center;
+    border-radius:30px;
+    outline: 8px solid white;
+    flex-grow: 1;
+    padding: 20px;
+    margin:15px;
+    width: 50vw;
+    height: 50vw;
+}
+.project-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:30px;
+    outline: 8px solid black;
+    padding: 20px;
+    margin:15px;
+    width: 300px;
+    height: 180px;
+}
+#highlighted-degree{
+}
+#degree{
+    flex-grow: 1;
+    height: 40px;
+    font-size: 3em;
+    overflow: hidden;
+}
+#institution{
+    align-self: flex-start;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.degree-img{
+    width:15vw;
+    filter:invert();
+}
+
+#mywork-chrono{
+    display: flex;
+}
+#links{
+    border-radius: 200px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    float: right;
+    
+}
+.sm-button{
+    width: 7em;
+    height: 7em;
+    border-radius: 100px;
+
+    flex:1;
+}
+.sm-button:hover{
+    /* background-color: gray; */
+    transform: rotate(360deg);
+    transition: 1s;
+    
+}
+
+#github-button{
+    background-image: url("/icons/github.png");
+    background-size: 100%;
+    background-repeat: 0;
+}
+
+#twitter-button{
+    background-image: url("/icons/twitter.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+#linkedin-button{
+    background-image: url("/icons/linkedin.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.splash-link{
+    margin: 12px;
+}
+
+#rainbow{
+    height: 200%;
+    display: flex;
+    flex-direction: row;
+    transform: rotate(25deg);
+}
+
+.rcolor{
+    width: 25px;
+    
+}
+.rcolor:hover{
+    /* transform:scale(2); */
+    transition: 0.2s;
+}
+/* <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a> */
+.presentation-title{
+    padding:10%;
+}
+@media only screen and (max-resolution: 200dpi ){
+    #links{
+        border-radius: 50px;
+        display: flex;
+        flex-direction: row;
+        
+        float: right;
+
+    }
+    .sm-button{
+        width: 5vh;
+        height: 5vh;
+        border-radius: 100;
+        flex:1;
+    }      
+    h1{
+        margin: 0;
+        padding: 30px;
+        font-size: 3em;
+    }
+
+    h2,h5{
+    font-size: 2em;
+    margin: 0;
+    padding: 50px;
+}
+    .triangle{
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-bottom: 0.5em solid #fff;
+        border-left: 0.5em solid transparent;
+    }
+    .textbody{
+        font-size:1.5em;
+        
+        color:white;
+        margin:0;
+    }   
+    #studies-chrono{
+        display: flex;
+        flex-wrap: wrap;
+        
+        flex-direction: row;
+
+        max-width: 100%;
+
+        
+    }
+    .studies-degree{
+        grid-column: 2/4;
+
+        display: flex;
+        flex-direction: column;
+        flex: 0 1 auto;
+        align-items: center;
+        border-radius:30px;
+        outline: 8px solid white;
+        
+        color: white;
+        
+        padding: 20px;
+        margin:15px;
+        width: 30vh;
+        height: 30vh;
+    }
+    #degree{
+        height: 40px;
+        font-size: 1.5em;
+        overflow: hidden;
+    }
+    #institution{
+        align-self: flex-start;
+        margin: 0;
+        font-size: 1.1em;
+        color: white;
+    }
+    
+    .degree-img{
+        width:10vh;
+        filter: invert();
+    }
+    #presentation-segment{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .presentation-title{
+        margin-top:2%;
+        font-size: 4em;
+    }
+    @media (prefers-color-scheme: dark){
+        
+    }
