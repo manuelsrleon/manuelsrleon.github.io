@@ -1,3 +1,4 @@
+
 html{
     font-family: 'DM Sans', sans-serif;
     color: white;
@@ -16,8 +17,6 @@ body{
 .background-segment{
     display:block;
     margin:0;
-    background-color: #202020;
-
     height: 100vh;
     padding: 0;
 }
@@ -41,6 +40,9 @@ body{
     display: flex;
     align-items: center;
 }
+#splash-subtitle{
+    padding:20px;
+}
 /* canvas{
     background-color: tomato;
 } */
@@ -62,11 +64,8 @@ body{
 h2,h5{
     font-size: 30pt;
     margin: 0;
-    padding: 50px;
 }
 #presentation-segment{
-    background-color: #202020;
-    color: white;
     display:flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -74,8 +73,6 @@ h2,h5{
 }
 .textbody{
     font-size:1.5em;
-    
-    color:white;
     margin: 5%;
 }
 h1{
@@ -83,7 +80,27 @@ h1{
     padding: 30px;
     font-size: 6em;
 }
+h2{
+    margin: 0;
+    padding: 30px;
+    font-size: 3em;
+}
+h3{
+    margin: 0;
+    padding: 30px;
+    font-size: 2em;
+}
+h4{
+    margin: 0;
+    padding: 30px;
+    font-size: 1.5em;
+}
 
+h5{
+    margin: 0;
+    padding: 30px;
+    font-size: 1em;
+}
 
 .text-container-flex{
     display:flex;
@@ -112,23 +129,37 @@ h1{
     flex: 1 0 auto;
     align-items: center;
     border-radius:30px;
-    outline: 8px solid white;
+    outline: 8px solid black;
     flex-grow: 1;
     padding: 20px;
     margin:15px;
     width: 50vw;
     height: 50vw;
 }
+#mywork-chrono{
+    display:flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+.proj-screen{
+    background-color: white;
+    color:black;
+    border-radius: 30px;
+    width: 50vw;
+    height: 45vw;
+}
 .project-banner{
     display: flex;
-    flex-direction: column;
+    overflow-x: hidden;
+    justify-content: center;
     align-items: center;
-    border-radius:30px;
-    outline: 8px solid black;
-    padding: 20px;
-    margin:15px;
-    width: 300px;
-    height: 180px;
+    border-radius:40px;
+    background-color: black;
+    color:white;
+    width: 60vw;
+    height: 50vw;
+    font-size: 2em;
+    margin:10px;
 }
 #highlighted-degree{
 }
@@ -146,12 +177,9 @@ h1{
 
 .degree-img{
     width:15vw;
-    filter:invert();
+    filter: saturate(0) brightness(0);
 }
 
-#mywork-chrono{
-    display: flex;
-}
 #links{
     border-radius: 200px;
     display: flex;
@@ -233,25 +261,23 @@ h1{
     h1{
         margin: 0;
         padding: 30px;
-        font-size: 3em;
     }
 
     h2,h5{
     font-size: 2em;
     margin: 0;
-    padding: 50px;
 }
     .triangle{
         display: inline-block;
         width: 0;
         height: 0;
-        border-bottom: 0.5em solid #fff;
+        border-bottom: 0.5em solid black;
         border-left: 0.5em solid transparent;
     }
     .textbody{
         font-size:1.5em;
         
-        color:white;
+        
     }   
     #studies-chrono{
         display: flex;
@@ -271,9 +297,7 @@ h1{
         flex: 0 1 auto;
         align-items: center;
         border-radius:30px;
-        outline: 8px solid white;
-        
-        color: white;
+        outline: 8px solid black;
         
         padding: 20px;
         margin:15px;
@@ -294,7 +318,6 @@ h1{
     
     .degree-img{
         width:10vh;
-        filter: invert();
     }
     #presentation-segment{
         display:flex;
@@ -306,6 +329,56 @@ h1{
         margin-top:2%;
         font-size: 4em;
     }
-    @media (prefers-color-scheme: dark){
-        
+    
+}
+
+@media (prefers-color-scheme: light){
+    html{
+        background-color: white;
+        color:black;
+    }   
+    #links{
+        background-color: black;
     }
+    .sm-button{
+        filter:invert();
+    }
+    #degree{
+        color:black;
+    }
+    #institution{
+        color: black;
+    }
+    
+}
+@media (prefers-color-scheme: dark){
+    html{
+        background-color: black;
+        color:white;
+    }   
+    #links{
+        background-color: white;
+    }
+    .sm-button{
+    }
+    #degree{
+        color:white;
+    }
+    .studies-degree{
+        outline: 8px solid white;
+    }
+    #institution{
+        color: white;
+    }
+    .degree-img{
+        filter:invert();
+    }
+    .triangle{
+        border-bottom: 0.6em solid #fff;
+        border-left: 0.6em solid transparent;
+    }
+}
+.wide-degree-img{
+    width: 20vh;
+    margin:5%;
+}
