@@ -371,7 +371,8 @@ h5{
         color: white;
     }
     .degree-img{
-        filter:invert();
+        filter:brightness(0) invert();
+
     }
     .triangle{
         border-bottom: 0.6em solid #fff;
