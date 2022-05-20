@@ -1,0 +1,22 @@
+{
+    "filaments":[
+        {
+            "brand": "SunLu",
+            "material":"PLA",
+            "colors": ["white"],
+            "costPerKg": 17
+        },
+        {
+            "brand": "GST 3D",
+            "material":"PLA",
+            "colors": ["white","black","skyblue","yellow","red"],
+            "costPerKg": 9
+        },
+        {
+            "brand": "GEEETECH",
+            "material": "TPU",
+            "colors": ["white"],
+            "costPerKg": 25
+        }
+    ]
+}

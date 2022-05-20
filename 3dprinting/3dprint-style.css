@@ -1,0 +1,57 @@
+html{
+    font-family: 'DM-Sans',sans-serif;
+}
+.square-item{
+
+    height: 30em;
+    width: 17em;
+    background-color: #202020;
+
+    outline:8px solid #202020;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    margin: 3%;
+}
+.square-item div img{
+    height: 17em;
+    width: 17em;
+    border-radius:10%;
+}
+
+.filaments{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.colors{
+    display:flex;
+    flex-direction: row;
+}
+.color{
+    width: 20px;
+    height: 20px;
+    padding:0px;
+    margin:10px;
+    outline:5px solid white;
+    border-radius: 100px;
+}
+.red{
+    background-color: red;
+}
+.lblue{
+    background-color: #0bf;
+}
+.yellow{
+    background-color: yellow;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+.filament-text{
+    margin:8%;
+}
