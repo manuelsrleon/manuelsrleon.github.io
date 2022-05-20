@@ -1,5 +1,12 @@
-html{
-    font-family: 'sans-serif;
+h1{
+    font-size: 2em;
+}
+h2{
+    font-size: 1.5em;
+    padding: 2px;
+}
+.html{
+    font-family: 'DM Sans', sans-serif;
 }
 .square-item{
 
