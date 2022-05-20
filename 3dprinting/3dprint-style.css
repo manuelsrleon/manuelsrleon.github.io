@@ -63,3 +63,20 @@ html{
 .filament-text{
     margin:8%;
 }
+.link-external{
+    background-color: #202020;
+    padding:1em;
+    margin:0.2em;
+    color:white;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+.link-external:hover{
+    cursor:pointer;
+    transform: translate(0.5em);
+    transition: 0.2s ease-in;
+}
+.link-row{
+    display:flex;
+    flex-direction: row;
+}
