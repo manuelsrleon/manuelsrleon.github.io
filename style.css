@@ -61,8 +61,8 @@ body{
     border-bottom: 5vw solid #fff;
     border-left: 5vw solid transparent;
 }
-h2,h5{
-    font-size: 30pt;
+h5{
+    font-size: 2em;
     margin: 0;
 }
 #presentation-segment{
@@ -78,7 +78,7 @@ h2,h5{
 h1{
     margin: 0;
     padding: 30px;
-    font-size: 6em;
+    font-size: 5em;
 }
 h2{
     margin: 0;
@@ -163,16 +163,11 @@ h5{
 }
 #highlighted-degree{
 }
-#degree{
+.card-title{
     flex-grow: 1;
     height: 40px;
     font-size: 3em;
     overflow: hidden;
-}
-#institution{
-    align-self: flex-start;
-    margin: 0;
-    font-size: 2.5em;
 }
 
 .degree-img{
@@ -263,7 +258,7 @@ h5{
         padding: 30px;
     }
 
-    h2,h5{
+    h5{
     font-size: 2em;
     margin: 0;
 }
@@ -304,12 +299,12 @@ h5{
         width: 30vh;
         height: 30vh;
     }
-    #degree{
+    .card-title{
         height: 40px;
         font-size: 1.5em;
         overflow: hidden;
     }
-    #institution{
+    .card-subtitle{
         align-self: flex-start;
         margin: 0;
         font-size: 1.1em;
@@ -343,10 +338,10 @@ h5{
     .sm-button{
         filter:invert();
     }
-    #degree{
+    .card-title{
         color:black;
     }
-    #institution{
+    .card-subtitle{
         color: black;
     }
     
@@ -361,7 +356,7 @@ h5{
     }
     .sm-button{
     }
-    #degree{
+    .card-title{
         color:white;
     }
     .studies-degree{

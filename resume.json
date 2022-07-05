@@ -6,13 +6,13 @@
       "email": "manuelsrleon@gmail.com",
       "phone": "",
       "url": "https://manuelsrleon.github.io/",
-      "summary": "A summary of John Doe…",
+      "summary": "My name is Manuel Santamariña Ruiz de León.\n\nI'm an aspiring developer from Galicia, Spain. Had a passion for computers since I was little, tinkerer by nature and overall your friendly neighbourhood bear.\n\nCurrently studying a Computer Science Degree @ UDC\n\n...but I'm still open to any promising adventures ;)",
       "location": {
-        "address": "2712 Broadway St",
-        "postalCode": "CA 94115",
-        "city": "San Francisco",
-        "countryCode": "US",
-        "region": "California"
+        "address": "N/A",
+        "postalCode": "N/A",
+        "city": "A Coruña",
+        "countryCode": "ES",
+        "region": "Galicia"
       },
       "profiles": [{
         "network": "GitHub",
@@ -25,18 +25,19 @@
       },{
         "network": "LinkedIn",
         "username": "Manuel Santamariña Ruiz de León",
-        "url": "https://twitter.com/john"
+        "url": "https://twitter.com/manuelsrleon"
       }]
     },
     "work": [{
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
+      "name": "Computer repairman",
+      "position": "Repairman",
+      "url": "N/A",
+      "startDate": "N/A",
+      "endDate": "N/A",
       "summary": "Description…",
       "highlights": [
-        "Started the company"
+        "All by myself",
+        "Got used to treating with people and getting into their true necessities."
       ]
     }],
     "volunteer": [{
@@ -50,16 +51,27 @@
         "Awarded 'Volunteer of the Month'"
       ]
     }],
-    "education": [{
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
+    "education": [
+    {
+      "institution": "Universidade da Coruña",
+      "url": "https://www.udc.es/",
+      "area": "Computer Engineering (28%)",
+      "studyType": "Degree in Computer Engineering",
+      "startDate": "N/A",
+      "endDate": "N/A",
+      "score": "",
       "courses": [
-        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "CampusDual",
+      "url": "https://www.campusdual.com/",
+      "area": "Fullstack development",
+      "studyType": "Degree",
+      "startDate": "N/A",
+      "endDate": "N/A",
+      "score": "",
+      "courses": [
       ]
     },
     {
@@ -67,7 +79,7 @@
         "url": "https://institution.com/",
         "area": "Technology",
         "studyType": "High School",
-        "startDate": "undefined",
+        "startDate": "1undefined",
         "endDate": "undefined",
         "score": "undefined",
         "courses": [
@@ -75,85 +87,277 @@
       },{
         "institution": "CPR Afundación",
         "url": "",
-        "area": "Manuel Santamariña Ruiz de León",
+        "area": "",
         "studyType": "CFGS",
         "startDate": "2011-01-01",
         "endDate": "2013-01-01",
         "score": "4.0",
         "courses": [
-          "DB1101 - Basic SQL"
-        ]
-      },{
-        "institution": "University",
-        "url": "https://institution.com/",
-        "area": "Software Development",
-        "studyType": "Bachelor",
-        "startDate": "2011-01-01",
-        "endDate": "2013-01-01",
-        "score": "4.0",
-        "courses": [
-          "DB1101 - Basic SQL"
         ]
       }],
     "awards": [{
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "title": "OSHWDem 2017: Arduino line-follower robot race",
+      "date": "2017",
+      "awarder": "BricoLabs",
+      "summary": "Awarded to the second fastest time and best design due to the use of recycled materials."
     }],
     "certificates": [{
       "name": "Certificate",
       "date": "2021-11-07",
       "issuer": "Company",
-      "url": "https://certificate.com",
+      "url": "https://certificate.com"
     }],
     "publications": [{
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
     }],
-    "skills": [{
-      "name": "Web Development",
-      "level": "Master",
+    "skills": [
+      {
+      "name": "HTML",
+      "level": "7",
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "Semantic"
+      ]
+    },
+    {
+      "name": "Emmet",
+      "level": "7",
+      "keywords": [
+        "Blazing fast"
+      ]
+    },
+    {
+      "name": "Communication",
+      "level": "10",
+      "keywords": [
+        "Expresiveness"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "5",
+      "keywords": [
+        "Design"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "5",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "5",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "C",
+      "level": "5",
+      "keywords": [
       ]
     }],
-    "languages": [{
+    "languages": [
+      {
       "language": "English",
       "fluency": "Native speaker"
+    },
+    {
+      "language": "Español",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Galego",
+      "fluency": "High competence"
+    },
+    {
+      "language": "Français",
+      "fluency": "Basic competence"
     }],
-    "interests": [{
-      "name": "Wildlife",
+    "interests": [
+      {
+      "name": "Longboarding",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+      ]
+    },
+    {
+      "name": "Electronics",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "3D printing",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Longboarding",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Inline skating",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Videogames",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Computers",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Science",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Music",
+      "keywords": [
+      ]
+    },{
+      "name": "Computers",
+      "keywords": [
       ]
     }],
-    "references": [{
-      "name": "Jane Doe",
-      "reference": "Reference…"
+    "references": [
+      {
+      "name": "",
+      "reference": ""
     }],
-    "projects": [{
-      "name": "Project",
-      "description": "Description…",
+    "projects": [
+    {
+      "name": "harmony.",
+      "description": "Angular + Spring based music database application developed during CampusDual's full-stack development bootcamp.",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Good UX and UI design.",
+        "Minimalistic"
       ],
       "keywords": [
-        "HTML"
+        "minimalism",
+        "music",
+        "REST"
       ],
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "url": "https://project.com/",
+      "startDate": "N/A",
+      "endDate": "N/A",
+      "url": "",
       "roles": [
-        "Team Lead"
+        ""
       ],
-      "entity": "Entity",
-      "type": "application"
-    }]
+      "entity": "",
+      "type": "Academic"
+    },
+    {
+    "name": "Pacomeralgo restaurant",
+    "description": "Software Methodologies project which consisted in interviewing and documenting a realistic restaurant digitalization project, complete with its UI design.",
+    "highlights": [
+      "Learned software engineering good practices here.",
+      "Completely OSHW"
+    ],
+    "keywords": [
+      "UDC",
+      "PS"
+    ],
+    "startDate": "N/A",
+    "endDate": "N/A",
+    "url": "",
+    "roles": [
+      ""
+    ],
+    "entity": "",
+    "type": "Academic"
+  }, 
+  {
+    "name": "lightride",
+    "description": "Arduino-based lighting system for inline skating.",
+    "highlights": [
+      "Animations! While you skate!",
+      "Completely OSHW"
+    ],
+    "keywords": [
+      "Arduino",
+      "C",
+      "Electronics"
+    ],
+    "startDate": "N/A",
+    "endDate": "N/A",
+    "url": "",
+    "roles": [
+      ""
+    ],
+    "entity": "",
+    "type": "DIY"
+  },
+  {
+    "name": "server dashboard",
+    "description": "Expansible server dashboard for domotics and remote server access",
+    "highlights": [
+      ""
+    ],
+    "keywords": [
+      "CSS",
+      "JS",
+      "HTML",
+      "Server",
+      "Back-end"
+    ],
+    "startDate": "N/A",
+    "endDate": "N/A",
+    "url": "",
+    "roles": [
+      ""
+    ],
+    "entity": "",
+    "type": "DIY"
+  },
+  {
+    "name": "YNQJMAEPM!",
+    "description": "Arduino + vanilla JS based voting system for birthday parties.",
+    "highlights": [
+      "Seems like I have a sense of humour."
+    ],
+    "keywords": [
+      "C",
+      "Arduino",
+      "Electronics",
+      "HID"
+    ],
+    "startDate": "N/A",
+    "endDate": "N/A",
+    "url": "",
+    "roles": [
+      ""
+    ],
+    "entity": "",
+    "type": "DIY"
+  },
+  {
+    "name": "OSHWheel",
+    "description": "DIY wheel for simracing",
+    "highlights": [
+      "Uses a real steering wheel!"
+    ],
+    "keywords": [
+      "C",
+      "Arduino",
+      "Electronics",
+      "HID"
+    ],
+    "startDate": "N/A",
+    "endDate": "N/A",
+    "url": "",
+    "roles": [
+      ""
+    ],
+    "entity": "",
+    "type": "DIY"
+  }]
   }
