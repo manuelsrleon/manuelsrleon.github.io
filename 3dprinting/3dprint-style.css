@@ -85,7 +85,7 @@ a{
     color:white;
 }
 .link-external{
-    padding:15px;
+    padding:20px;
     margin:10px;
     background-color: #2E3561;
     color:#fff;
@@ -104,10 +104,11 @@ a{
 }
 .links{
     display:flex;
+    flex-grow: 1;
     flex-direction: column;
 }
 .scene{
-    margin: 20% 0% 100% 20%;
+    margin: 20vw 0% 70vw 20vw;
     width: 10%;
     height: 10%;
     perspective:30000px;
