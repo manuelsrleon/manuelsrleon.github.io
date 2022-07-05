@@ -10,47 +10,67 @@
 </head>
 <body>
     <h1>manuelsrleon's 3D printing service</h1>
-    <p>Esta es la página en la que iré poniendo información relevante sobre impresión 3D.</p>
+    <h2>Mi impresora:</h2>
+    Artillery Genius<br>
+    230x230x250mm<br>
+    + Cama PEI<br>
     <h2>Encontrarás modelos 3D para imprimir en:</h2>
-    <div class="link-row">
-        <a href="http://thingiverse.com/" class="link-external">
-            Thingiverse
-        </a>
-        <a href="http://thangs.com/" class="link-external">
-            Thangs
-        </a>
-        <a href="http://printables.com/" class="link-external">
-            Printables
-        </a>
+    
+    <div id="links-showcase">
+        <div class="scene">
+            <div class="cube show-isometric">
+              <div class="cube__face cube__face--front"></div>
+              <div class="cube__face cube__face--back"></div>
+              <div class="cube__face cube__face--right"></div>
+              <div class="cube__face cube__face--left"></div>
+              <div class="cube__face cube__face--top"></div>
+              <div class="cube__face cube__face--bottom"></div>
+            </div>
+          </div>
+        <div class="links">
+            
+            <a href="http://thingiverse.com/" class="link-external">
+                ▪&nbspThingiverse
+            </a>
+            <a href="http://thangs.com/" class="link-external" style="left:10px">
+                ▪&nbspThangs
+            </a>
+            <a href="http://printables.com/" class="link-external">
+                ▪&nbspPrintables
+            </a>
+        </div>
     </div>
-    <h1>Estos son los materiales que tengo disponibles:</h1>
+    
+    <h1>Materiales disponibles:</h1>
     <div class="filaments">
         <div class="square-item">
-        
-            <div><img src="./filament/sunlu-pla-white.jpg" alt="">
+            <div>
+                <img src="./filament/sunlu-pla-white.jpg" alt="">
             </div>
-            
             <div class="filament-text">
                 <h2 class="filament-title">PLA+</h2>
-                Colores:
+                <!-- Another div is used for the outline since WebKit seems 
+                to break when using border-radius along with outline, ignoring
+                completely the clip that border-radius and drawing the outline 
+                over its bounding box instead.-->
                 <div class="colors">
-                    <div class="white color-outline">
+                    <div class="color-outline">
                         <div class="color white"></div>
                     </div>
-                    <div class="white color-outline">
+                    <div class="color-outline black">
                         <div class="color black"></div>
                     </div>
-                    <div class="white color-outline">
+                    <div class="color-outline red">
                         <div class="color red"></div>
                     </div>
-                    <div class="white color-outline">
+                    <div class="color-outline yellow">
                         <div class="color yellow"></div>
                     </div>
-                    <div class="white color-outline">
+                    <div class="color-outline lblue">
                         <div class="color lblue"></div>
                     </div>
                 </div>
-                <p>Coste: 22€/kg</p>
+                <p>22€/kg</p>
             </div>
         </div>
 
@@ -59,15 +79,14 @@
             <div><img src="./filament/geeeetech-tpu-white.jpg" alt="">
             </div>
             <div class="filament-text">
-                <h2 class="filament-title">TPU (Flexible)</h2>
-                
-                Colores:
+                <h2 class="filament-title">TPU (Flexible!)</h2>
+        
                 <div class="colors">
-                    <div class="white color-outline">
+                    <div class="color-outline">
                         <div class="color white"></div>
                     </div>
                 </div>
-                <p>Coste: 30€/kg</p>
+                <p>30€/kg</p>
                  
             </div>
         </div>
