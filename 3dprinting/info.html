@@ -9,89 +9,105 @@
     <link rel="stylesheet" href="./3dprint-style.css">
 </head>
 <body>
+    <section id="my-3d-printer">
     <h1>manuelsrleon's 3D printer:</h1>
     Artillery Genius<br>
     230x230x250mm<br>
     + Cama PEI<br>
-    <h2>Encontrarás modelos 3D para imprimir en:</h2>
+    </section>
     
-    <div id="links-showcase">
-        <div class="scene">
-            <div class="cube show-isometric">
-              <div class="cube__face cube__face--front"></div>
-              <div class="cube__face cube__face--back"></div>
-              <div class="cube__face cube__face--right"></div>
-              <div class="cube__face cube__face--left"></div>
-              <div class="cube__face cube__face--top"></div>
-              <div class="cube__face cube__face--bottom"></div>
-            </div>
-          </div>
-        <div class="links">
-            
-            <a href="http://thingiverse.com/" class="link-external">
-                ▪&nbspThingiverse
-            </a>
-            <a href="http://thangs.com/" class="link-external" style="left:10px">
-                ▪&nbspThangs
-            </a>
-            <a href="http://printables.com/" class="link-external">
-                ▪&nbspPrintables
-            </a>
-        </div>
-    </div>
-    
-    <h1>Materiales disponibles:</h1>
-    <div class="filaments">
-        <div class="square-item">
-            <div>
-                <img src="./filament/sunlu-pla-white.jpg" alt="">
-            </div>
-            <div class="filament-text">
-                <h2 class="filament-title">PLA+</h2>
-                <!-- Another div is used for the outline since WebKit seems 
-                to break when using border-radius along with outline, ignoring
-                completely the clip that border-radius and drawing the outline 
-                over its bounding box instead.-->
-                <div class="colors">
-                    <div class="color-outline">
-                        <div class="color white"></div>
-                    </div>
-                    <div class="color-outline black">
-                        <div class="color black"></div>
-                    </div>
-                    <div class="color-outline red">
-                        <div class="color red"></div>
-                    </div>
-                    <div class="color-outline yellow">
-                        <div class="color yellow"></div>
-                    </div>
-                    <div class="color-outline lblue">
-                        <div class="color lblue"></div>
-                    </div>
+    <div class="bottom-sections">
+        <section id="links-showcase">
+            <h2>Encontrarás modelos 3D para imprimir en:</h2>
+            <div class="scene">
+                <div class="cube show-isometric">
+                <div class="cube__face cube__face--front"></div>
+                <div class="cube__face cube__face--back"></div>
+                <div class="cube__face cube__face--right"></div>
+                <div class="cube__face cube__face--left"></div>
+                <div class="cube__face cube__face--top"></div>
+                <div class="cube__face cube__face--bottom"></div>
                 </div>
-                <p>22€/kg</p>
             </div>
-        </div>
+            <div class="links">
+                <a href="http://thingiverse.com/" class="link-external">
+                    ▪&nbspThingiverse
+                </a>
+                <a href="http://thangs.com/" class="link-external" style="left:10px">
+                    ▪&nbspThangs
+                </a>
+                <a href="http://printables.com/" class="link-external">
+                    ▪&nbspPrintables
+                </a>
+            </div>
+        </section>
 
-        <div class="square-item">
-        
-            <div><img src="./filament/geeeetech-tpu-white.jpg" alt="">
-            </div>
-            <div class="filament-text">
-                <h2 class="filament-title">TPU (Flexible!)</h2>
-        
-                <div class="colors">
-                    <div class="color-outline">
-                        <div class="color white"></div>
+        <section id="filaments">
+            <h2>Materiales disponibles:</h2>
+            <div class="square-item">
+                <img src="./filament/sunlu-pla-white.jpg" alt="">
+                <div class="filament-text">
+                    <h3 class="filament-title">PLA+</h3>
+                    <!-- Another div is used for the outline since WebKit seems 
+                    to break when using border-radius along with outline, ignoring
+                    completely the clip that border-radius and drawing the outline 
+                    over its bounding box instead.-->
+                    <div class="colors">
+                        
+                        <div class="color">
+                            <div class="color-dot color--white"></div>
+                            Blanco
+                        </div>
+                            
+                        <div class="color">
+                            <div class="color-dot color--black"></div>
+                            Negro
+                        </div>
+                        
+                        <div class="color">
+                            <div class="color-dot color--red"></div>
+                            Rojo
+                        </div>
+                            
+                        <div class="color ">
+                            <div class="color-dot color--yellow"></div>
+                            Amarillo
+                        </div>
+                        
+                        
+                        <div class="color">
+                            <div class="color-dot color--lblue"></div>
+                            Azul C.
+                        </div>
+                        
                     </div>
+                    <p>22€/kg</p>
                 </div>
-                <p>30€/kg</p>
-                 
             </div>
-        </div>
+            <div class="square-item">
+            
+                <img src="./filament/geeeetech-tpu-white.jpg" alt="">
+                
+                <div class="filament-text">
+                    <h3 class="filament-title">TPU (Flexible!)</h3>
+            
+                   
+                    <div class="color">
+                        <div class="color-dot color--white"></div>
+                        Blanco
+                    </div>
+                    <p>30€/kg</p>
+                    
+                </div>
+            </div>
+        </section>
+        
+            
+        
+        <section id="contact">
+            <h1>¿Necesitas saber algo más?</h1>
+            <p>Escríbeme un mensaje a <strong><a href="https://t.me/manuelsrleon">t.me/manuelsrleon</a></strong></p>
+        </section>
     </div>
-    <br>
-    <h1>¿Necesitas saber algo más?</h1>
-    <p>Escríbeme un mensaje a <strong><a href="https://t.me/manuelsrleon">t.me/manuelsrleon</a></strong></p>
 </body>
 </html>
