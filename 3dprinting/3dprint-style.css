@@ -5,6 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 h1{
     font-size: 2em;
 }
@@ -162,8 +163,8 @@ a{
 
 
 @keyframes cubo {
-    from{transform: 0}
-    to{transform:rotate3d(2,1.5,0,359deg);}
+    from{transform: rotate3d(2,1.7,0,0deg)}
+    to{transform:rotate3d(2,1.7,0,359deg);}
 }
 .cube__face--front  { transform: rotateY(  0deg) translateZ(110px); outline:10px solid white; }
 .cube__face--right  { transform: rotateY( 90deg) translateZ(110px); outline:10px solid white; }
