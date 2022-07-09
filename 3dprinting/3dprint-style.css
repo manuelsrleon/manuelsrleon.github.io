@@ -163,7 +163,7 @@ a{
 
 
 @keyframes cubo {
-    from{transform: rotate3d(2,1.7,0,0deg)}
+    from{transform: rotate3d(0,0,0,0deg)}
     to{transform:rotate3d(2,1.7,0,359deg);}
 }
 .cube__face--front  { transform: rotateY(  0deg) translateZ(110px); outline:10px solid white; }
