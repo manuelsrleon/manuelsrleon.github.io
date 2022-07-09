@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@font-face {
+    font-family: 'KG Second Chances Sketch';
+    src: url('../fonts/KGSecondChancesSketch.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 h1{
     font-size: 2em;
 }
@@ -6,7 +13,7 @@ h2{
     padding: 2px;
 }
 html{
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Architects Daughter',cursive,'DM Sans', sans-serif;
     background-color: #2E3561;
     color: white;
 
@@ -36,22 +43,28 @@ section{
     min-width: 40vw;
     max-width: 100vw;
 }
-.square-item{
+.filament{
     margin:10px;
     width: 100%;
 
     max-width: 500px;
-    background-color: #FFF;
-    color: black;
+    color: #fff;
+    outline: 2px solid white;
     font-weight: bold;
     border-radius: 30px;
     display:flex;
 }
-.square-item img{
+.filament img{
     height: 130px;
     width: 130px;
     border-radius:10%;
-    margin:5px;
+    margin:20px;
+}
+.filament-title{
+    font-family: 'KG Second Chances Sketch';
+    font-size: 2.5em;
+    font-weight: 100;
+    margin:30px 0px;
 }
 .filament-text{
     display:flex;
@@ -99,13 +112,15 @@ a{
     margin:10px;
     background-color: #2E3561;
     color:#fff;
-    outline:4px dashed white;
+    outline: 2px solid white;
     border-radius: 0.5em;
-    font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     font-size:xx-large;
     z-index: 10;
+    font-family: 'KG Second Chances Sketch';
+    font-weight: 100;
+    
 }
 .link-external:hover{
     cursor:pointer;
@@ -113,27 +128,43 @@ a{
     transition: 0.2s ease-in;
 }
 .scene{
-    position:absolute;
+    position: absolute;
     left:100px;
-    top:350px;
-    width: 10%;
-    height: 10%;
-    perspective:30000px;
 }
 .cube{
-    width: 100%;
-    height: 100%;
-    position: relative;
+    position: absolute;
+    left:20px;
+    top:50px;
+    z-index: 0;
     transform-style: preserve-3d;
-    transition: transform 1s;
+    
+    animation-name: cubo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .cube__face{
-    position: absolute;
+    position:absolute;
     width: 200px;
     height:200px;
 }
 
+.link-external:before{
+    content: "";
+    background-color: white;
+    margin:5px;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: 5%;
+}
+
+
+@keyframes cubo {
+    from{transform: 0}
+    to{transform:rotate3d(2,1.5,0,359deg);}
+}
 .cube__face--front  { transform: rotateY(  0deg) translateZ(110px); outline:10px solid white; }
 .cube__face--right  { transform: rotateY( 90deg) translateZ(110px); outline:10px solid white; }
 .cube__face--back   { transform: rotateY(180deg) translateZ(110px); outline:10px solid white; }
@@ -148,7 +179,7 @@ a{
 .cube.show-left   { transform: translateZ(-100px) rotateY(  90deg); }
 .cube.show-top    { transform: translateZ(-100px) rotateX( -90deg); }
 .cube.show-bottom { transform: translateZ(-100px) rotateX(  90deg); }
-.cube.show-isometric { transform: translateZ(-10000px) rotateX(45deg) rotateY(45deg); translate: ();}
+.cube.show-isometric { transform: translateZ(0px) rotateX(45deg) rotateY(45deg);}
 
 /* Media queries */
 
