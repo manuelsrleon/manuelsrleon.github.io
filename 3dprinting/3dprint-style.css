@@ -35,7 +35,7 @@ body{
     flex-grow: 1;
 }
 section{
-    margin:20px;
+    margin:25px;
     max-width: 600px;
 }
 #filaments{
@@ -54,6 +54,7 @@ section{
     font-weight: bold;
     border-radius: 30px;
     display:flex;
+    padding:10px;
 }
 .filament img{
     height: 130px;
@@ -65,7 +66,7 @@ section{
     font-family: 'KG Second Chances Sketch';
     font-size: 2.5em;
     font-weight: 100;
-    margin:30px 0px;
+    margin:10px 0px;
 }
 .filament-text{
     display:flex;
@@ -74,6 +75,7 @@ section{
     /* margin:2%; */
 }
 .colors{
+    margin:5px;
     display:flex;
     flex-wrap: wrap;
 }
@@ -121,6 +123,9 @@ a{
     z-index: 10;
     font-family: 'KG Second Chances Sketch';
     font-weight: 100;
+
+    display:inline;
+    white-space:nowrap;
     
 }
 .link-external:hover{
@@ -153,12 +158,12 @@ a{
 
 .link-external:before{
     content: "";
+    font-size: 0.3em;
     background-color: white;
-    margin:5px;
     width: 10px;
     height: 10px;
     display: inline-block;
-    vertical-align: 5%;
+    vertical-align: 70%;
 }
 
 
