@@ -133,19 +133,7 @@ h5{
     height: 50vw;
 }
 /* PROJECTS */
-.project-banner{
-    display: flex;
-    overflow-x: hidden;
-    justify-content: center;
-    align-items: center;
-    border-radius:40px;
-    background-color: black;
-    color:white;
-    width: 60vw;
-    height: 50vw;
-    font-size: 2em;
-    margin:10px;
-}
+
 #project-monitor{
     width: 100vw;
     background-color: #202020;
@@ -160,7 +148,25 @@ h5{
     font-size: 3em;
     padding:20px;
 }
+.typewriter{
+    overflow:hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation:alternatetyping 3.5s steps(40,end),
+    blink-caret .75s step-end infinite;
+}
 
+@keyframes typing{
+    from{width: 0}
+    to{width:100%}
+}
+
+@keyframes blink-caret{
+    from, to {border-color: transparent}
+    50% {border-color:orange;} 
+}
 /* PROJECT LIST */
 #project-list{
     display: flex;
@@ -169,14 +175,20 @@ h5{
     overflow-x: auto;
 }
 .project-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
     background-color: white;
     color:black;
     outline:16px solid black;
+    border-radius: 40px;
     font-size: xx-large;
     width: auto;
     height: 30vw;
     flex: 1 0 auto;
 }
+
 .card-title{
     flex-grow: 1;
     height: 40px;
