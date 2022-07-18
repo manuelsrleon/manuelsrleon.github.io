@@ -1,363 +1,315 @@
 {
-    "basics": {
-      "name": "Manuel Santamariña Ruiz de León",
-      "label": "Developer",
-      "image": "",
-      "email": "manuelsrleon@gmail.com",
-      "phone": "",
-      "url": "https://manuelsrleon.github.io/",
-      "summary": "My name is Manuel Santamariña Ruiz de León.\n\nI'm an aspiring developer from Galicia, Spain. Had a passion for computers since I was little, tinkerer by nature and overall your friendly neighbourhood bear.\n\nCurrently studying a Computer Science Degree @ UDC\n\n...but I'm still open to any promising adventures ;)",
-      "location": {
-        "address": "N/A",
-        "postalCode": "N/A",
-        "city": "A Coruña",
-        "countryCode": "ES",
-        "region": "Galicia"
-      },
-      "profiles": [{
-        "network": "GitHub",
-        "username": "manuelsrleon",
-        "url": "https://github.com/manuelsrleon"
-      },{
-        "network": "Twitter",
-        "username": "manuelsrleon",
-        "url": "https://twitter.com/manuelsrleon"
-      },{
-        "network": "LinkedIn",
-        "username": "Manuel Santamariña Ruiz de León",
-        "url": "https://twitter.com/manuelsrleon"
-      }]
+  "basics": {
+    "name": "Manuel Santamariña Ruiz de León",
+    "label": "Take apart. Tinker. Modify. Overcome.",
+    "image": "",
+    "email": "manuelsrleon@gmail.com",
+    "phone": "650 74 02 61",
+    "url": "https://manuelsrleon.github.io/",
+    "summary": "I'm an aspiring developer from Galicia, Spain. Had a passion for computers since I was little, tinkerer by nature and overall your friendly neighbourhood nerd.\n\nCurrently studying a Computer Science Degree @ UDC... but I'm still open to any promising adventures ;)",
+    "location": {
+      "city": "A Coruña",
+      "countryCode": "ES",
+      "region": "Galicia"
     },
-    "work": [{
-      "name": "Computer repairman",
-      "position": "Repairman",
-      "url": "N/A",
-      "startDate": "N/A",
-      "endDate": "N/A",
-      "summary": "Description…",
-      "highlights": [
-        "All by myself",
-        "Got used to treating with people and getting into their true necessities."
-      ]
-    }],
-    "volunteer": [{
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }],
-    "education": [
-    {
-      "institution": "Universidade da Coruña",
-      "url": "https://www.udc.es/",
-      "area": "Computer Engineering (28%)",
-      "studyType": "Degree in Computer Engineering",
-      "startDate": "N/A",
-      "endDate": "N/A",
-      "score": "",
-      "courses": [
-      ]
-    },
-    {
-      "institution": "CampusDual",
-      "url": "https://www.campusdual.com/",
-      "area": "Fullstack development",
-      "studyType": "Degree",
-      "startDate": "N/A",
-      "endDate": "N/A",
-      "score": "",
-      "courses": [
-      ]
-    },
-    {
-        "institution": "IES Francisco Aguiar",
-        "url": "https://institution.com/",
-        "area": "Technology",
-        "studyType": "High School",
-        "startDate": "1undefined",
-        "endDate": "undefined",
-        "score": "undefined",
-        "courses": [
-        ]
-      },{
-        "institution": "CPR Afundación",
-        "url": "",
-        "area": "",
-        "studyType": "CFGS",
-        "startDate": "2011-01-01",
-        "endDate": "2013-01-01",
-        "score": "4.0",
-        "courses": [
-        ]
-      }],
-    "awards": [{
-      "title": "OSHWDem 2017: Arduino line-follower robot race",
-      "date": "2017",
-      "awarder": "BricoLabs",
-      "summary": "Awarded to the second fastest time and best design due to the use of recycled materials."
-    }],
-    "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }],
-    "publications": [{
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "url": "",
-      "summary": ""
-    }],
-    "skills": [
-      {
-      "name": "HTML",
-      "level": "7",
-      "keywords": [
-        "Semantic"
-      ]
-    },
-    {
-      "name": "Emmet",
-      "level": "7",
-      "keywords": [
-        "Blazing fast"
-      ]
-    },
-    {
-      "name": "Communication",
-      "level": "10",
-      "keywords": [
-        "Expresiveness"
-      ]
-    },
-    {
-      "name": "CSS",
-      "level": "5",
-      "keywords": [
-        "Design"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "5",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Angular",
-      "level": "5",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "C",
-      "level": "5",
-      "keywords": [
-      ]
-    }],
-    "languages": [
-      {
-      "language": "English",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Español",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "Galego",
-      "fluency": "High competence"
-    },
-    {
-      "language": "Français",
-      "fluency": "Basic competence"
-    }],
-    "interests": [
-      {
-      "name": "Longboarding",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Electronics",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "3D printing",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Longboarding",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Inline skating",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Videogames",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Computers",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Science",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Music",
-      "keywords": [
-      ]
+    "profiles": [{
+      "network": "GitHub",
+      "username": "manuelsrleon",
+      "url": "https://github.com/manuelsrleon"
     },{
-      "name": "Computers",
-      "keywords": [
-      ]
-    }],
-    "references": [
-      {
-      "name": "",
-      "reference": ""
-    }],
-    "projects": [
-    {
-      "name": "harmony.",
-      "description": "Angular + Spring based music database application developed during CampusDual's full-stack development bootcamp.",
-      "highlights": [
-        "Good UX and UI design.",
-        "Minimalistic"
-      ],
-      "keywords": [
-        "minimalism",
-        "music",
-        "REST"
-      ],
-      "startDate": "N/A",
-      "endDate": "N/A",
+      "network": "Twitter",
+      "username": "manuelsrleon",
+      "url": "https://twitter.com/manuelsrleon"
+    },{
+      "network": "LinkedIn",
+      "username": "Manuel Santamariña Ruiz de León",
+      "url": "https://www.linkedin.com/in/manuel-santamari%C3%B1a-ruiz-de-le%C3%B3n-a8b2311b1/"
+    }]
+  },
+  "work": [{
+    "name": "IT Support",
+    "position": "Self-taught IT repairman",
+    "summary": "Started repairing computers since I was young as a side-job. There I got used to being concise and exact in communicating with people.",
+    "highlights": [
+      "All by myself",
+      "Got used to treating with people and getting into their true necessities."
+    ]
+  }],
+  "education": [
+  {
+    "institution": "Universidade da Coruña",
+    "url": "https://www.udc.es/",
+    "area": "Computer Engineering (35%)",
+    "startDate": "2020",
+    "endDate": "2024",
+    "studyType": "Degree in Computer Engineering",
+    "score": "",
+    "courses": [
+    ]
+  },
+  {
+    "institution": "CampusDual",
+    "url": "https://www.campusdual.com/",
+    "area": "Fullstack Development",
+    "studyType": "Bootcamp",
+    "startDate": "2020",
+    "endDate": "2020",
+    "score": "",
+    "courses": [
+    "Angular",
+    "Spring",
+    "TypeScript + Sass + HTML"
+    ]
+  },
+  {
+      "institution": "CPR Afundación",
       "url": "",
-      "roles": [
-        ""
-      ],
-      "entity": "",
-      "type": "Academic"
+      "area": "Multiplatform Application Development",
+      "studyType": "CFGS",
+      "startDate": "2018",
+      "endDate": "2020",
+      "score": "",
+      "courses": [
+      ]
     },
     {
-    "name": "Pacomeralgo restaurant",
-    "description": "Software Methodologies project which consisted in interviewing and documenting a realistic restaurant digitalization project, complete with its UI design.",
+      "institution": "IES Francisco Aguiar",
+      "area": "Upper High School",
+      "studyType": "High School",
+      "startDate": "2015",
+      "endDate": "2018",
+      "courses": [
+      "Tech-specialized study path"
+      ]
+    }],
+  "awards": [{
+    "title": "OSHWDem 2017: Arduino line-follower robot race",
+    "date": "2017",
+    "awarder": "BricoLabs",
+    "summary": "Awarded to the second fastest time and best design due to the use of an inside-out approach in the line-following algorithm that permitted live error correction and for the use of upcycled materials."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "skills": [
+    {
+    "name": "HTML",
+    "keywords": [
+    "Well-versed in Emmet",
+    "Semantic & accessible"
+    ]
+  },
+  {
+    "name": "CSS (+Sass)",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "Angular",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "Flutter+Dart",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "C",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "Communication",
+    "keywords": [
+    ]
+  }],
+  "languages": [
+    {
+    "language": "English",
+    "fluency": "Native speaker"
+  },
+  {
+    "language": "Español",
+    "fluency": "Native speaker"
+  },
+  {
+    "language": "Galego",
+    "fluency": "High competence"
+  },
+  {
+    "language": "Français",
+    "fluency": "Basic competence"
+  }],
+  "interests": [
+  {
+    "name": "Electronics",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "3D Printing",
+    "keywords": [
+    ]
+  },
+   {
+    "name": "Science",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "3D Rendering",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "Computers",
+    "keywords": [
+    ]
+  },
+  {
+    "name": "Music",
+    "keywords": [
+    ]
+  },
+   {
+    "name": "Longboarding & inline skating",
+    "keywords": [
+    ]
+  }],
+  "projects": [
+  {
+    "name": "harmony.",
+    "description": "Angular + Spring based music database application developed during CampusDual's full-stack development bootcamp.",
     "highlights": [
-      "Learned software engineering good practices here.",
-      "Completely OSHW"
+      "Good UX and UI design.",
+      "Minimalistic"
     ],
     "keywords": [
-      "UDC",
-      "PS"
+      "minimalism",
+      "music",
+      "REST"
     ],
-    "startDate": "N/A",
-    "endDate": "N/A",
     "url": "",
     "roles": [
       ""
     ],
     "entity": "",
     "type": "Academic"
-  }, 
-  {
-    "name": "lightride",
-    "description": "Arduino-based lighting system for inline skating.",
-    "highlights": [
-      "Animations! While you skate!",
-      "Completely OSHW"
-    ],
-    "keywords": [
-      "Arduino",
-      "C",
-      "Electronics"
-    ],
-    "startDate": "N/A",
-    "endDate": "N/A",
-    "url": "",
-    "roles": [
-      ""
-    ],
-    "entity": "",
-    "type": "DIY"
   },
   {
-    "name": "server dashboard",
-    "description": "Expansible server dashboard for domotics and remote server access",
-    "highlights": [
-      ""
-    ],
-    "keywords": [
-      "CSS",
-      "JS",
-      "HTML",
-      "Server",
-      "Back-end"
-    ],
-    "startDate": "N/A",
-    "endDate": "N/A",
-    "url": "",
-    "roles": [
-      ""
-    ],
-    "entity": "",
-    "type": "DIY"
-  },
+  "name": "COVIDLog",
+  "description": "Front-end design & implementation of three different apps (Desktop + Mobile + Web) for a Human-Machine Interfaces assignment.",
+  "highlights": [
+    "Learned software engineering good practices here.",
+    "Completely OSHW"
+  ],
+  "keywords": [
+    "UDC",
+    "PS"
+  ]},
   {
-    "name": "YNQJMAEPM!",
-    "description": "Arduino + vanilla JS based voting system for birthday parties.",
-    "highlights": [
-      "Seems like I have a sense of humour."
-    ],
-    "keywords": [
-      "C",
-      "Arduino",
-      "Electronics",
-      "HID"
-    ],
-    "startDate": "N/A",
-    "endDate": "N/A",
-    "url": "",
-    "roles": [
-      ""
-    ],
-    "entity": "",
-    "type": "DIY"
-  },
-  {
-    "name": "OSHWheel",
-    "description": "DIY wheel for simracing",
-    "highlights": [
-      "Uses a real steering wheel!"
-    ],
-    "keywords": [
-      "C",
-      "Arduino",
-      "Electronics",
-      "HID"
-    ],
-    "startDate": "N/A",
-    "endDate": "N/A",
-    "url": "",
-    "roles": [
-      ""
-    ],
-    "entity": "",
-    "type": "DIY"
-  }]
-  }
+  "name": "Pacomeralgo restaurant",
+  "description": "Software Methodologies assignment which consisted in interviewing a client and documenting a realistic restaurant digitalization endeavour, complete with its UI design. The sample design for the restaurant was done in Figma.",
+  "highlights": [
+    "Learned software engineering good practices here.",
+    "Completely OSHW"
+  ],
+  "keywords": [
+    "UDC",
+    "PS"
+  ],
+  "url": "",
+  "roles": [
+    ""
+  ],
+  "entity": "",
+  "type": "Academic"
+}, 
+{
+  "name": "lightride",
+  "description": "Arduino-based lighting system for inline skating.",
+  "highlights": [
+    "Animations! While you skate!",
+    "Completely OSHW"
+  ],
+  "keywords": [
+    "Arduino",
+    "C",
+    "Electronics"
+  ],
+  "url": "",
+  "roles": [
+    ""
+  ],
+  "entity": "",
+  "type": "DIY"
+},
+{
+  "name": "server dashboard",
+  "description": "Expansible server dashboard for domotics and remote server access",
+  "highlights": [
+    ""
+  ],
+  "keywords": [
+    "CSS",
+    "JS",
+    "HTML",
+    "Server",
+    "Back-end"
+  ],
+  "url": "",
+  "roles": [
+    ""
+  ],
+  "entity": "",
+  "type": "DIY"
+},
+{
+  "name": "YNQJMAEPM!",
+  "description": "Arduino + vanilla JS based voting system for birthday parties.",
+  "highlights": [
+    "I have a sense of humour."
+  ],
+  "keywords": [
+    "C",
+    "Arduino",
+    "Electronics",
+    "HID"
+  ],
+  "url": "",
+  "roles": [
+    ""
+  ],
+  "entity": "",
+  "type": "DIY"
+},
+{
+  "name": "OSHWheel",
+  "description": "ATMega32u4-based DIY OSHW steering wheel made with VR simracing in mind",
+  "highlights": [
+    "Uses a real steering wheel!"
+  ],
+  "keywords": [
+    "C",
+    "Arduino",
+    "Electronics",
+    "HID",
+    "3D Printing"
+  ],
+  "url": "",
+  "roles": [
+    ""
+  ],
+  "entity": "",
+  "type": "DIY"
+}]
+}
