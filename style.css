@@ -296,14 +296,17 @@ h5{
         font-size: 2em;
     }
     h2{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     h3{
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
     p{
-        font-size: 0.9em;
+        font-size: 0.7em;
         margin:4%;
+    }
+    .splash-link{
+        margin:5px;
     }
      #links{
         border-radius: 1000px;
@@ -332,21 +335,36 @@ h5{
         flex-direction: row;
     }
     .studies-degree>img{
-        max-height: 3vh;
+        height: 35px;
+        width: auto;
+        padding:5px;
+        margin:0;
+    }
+    #campusdual-img{
+        height: 45px;
         width: auto;
         padding:0;
-        margin:0;
+    }
+    #afundacion-img{
+        height: 45px;
+        width: auto;
+        padding:0;
+    }
+    #fcoaguiar-img{
+        height: 40px;
+        width: auto;
+        padding:0;
     }
     .card-title{
         margin:0px;
-        padding:10px;
-        height: 10px;
-        font-size: 0.5em;
+        padding:2px;
+        font-size: 0.7em;
         overflow: hidden;
         flex-grow: 1;
     }
     .card-subtitle{
-        font-size: 0.3em;
+        font-size: 0.5em;
+        padding:0;
         
     }
 
@@ -356,12 +374,12 @@ h5{
         
         align-items: center;
         border-radius:10px;
-        outline: 5px solid black;
+        outline: 3px solid black;
         flex-grow: 0;
-        padding: 20px;
+        padding: 15px;
+        height: 25vh;
+        width: 25vh;
         margin:10px;
-        width: 15vh;
-        height: 15vh;
     }
 
     /* PROJECT LIST (MID-SIZED)*/
