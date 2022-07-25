@@ -402,7 +402,7 @@ p{
         padding: 15px;
         height: 25vh;
         width: 25vh;
-        margin:10px;
+        margin:5px;
     }
     #campusdual-img{
         height: 80px;
@@ -548,7 +548,7 @@ p{
         color:white;
     }
     .studies-degree{
-        outline: 8px solid white;
+        border: 8px solid white;
     }
     #institution{
         color: white;
@@ -563,7 +563,7 @@ p{
     }
 
     .project-banner{
-        outline: 8px solid white;
+        border: 8px solid white;
         background-color: #000;
     }
     .project-title{
