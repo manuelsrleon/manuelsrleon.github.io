@@ -227,15 +227,13 @@ p{
     text-decoration: none;    
 }
 .project-tag{
-    bottom: -1em;
-    position: absolute;
     background-color: #202020;
     color:white;
     border-radius: 15px;
     text-transform: uppercase;
     font-weight: 700;
 
-    padding: 10px;
+    padding: 7px;
 }
 .card-title{
     flex-grow: 1;
@@ -317,16 +315,16 @@ p{
 }
  @media only screen and (max-resolution: 200dpi ){
     h1{
-        font-size: 2em;
+        font-size: 4em;
     }
     h2{
-        font-size: 1.3em;
+        font-size: 2.6em;
     }
     h3{
-        font-size: 1.3em;
+        font-size: 2.6em;
     }
     p{
-        font-size: 0.7em;
+        font-size: 1.4em;
         margin:4%;
     }
     .splash-link{
@@ -346,7 +344,7 @@ p{
         transform: rotate(25deg);
     }
     .rcolor{
-        width: 10px;
+        width: 20px;
         
     }
     .sm-button{
@@ -370,7 +368,7 @@ p{
         flex-direction: row;
     }
     .studies-degree>img{
-        height: 35px;
+        height: 60px;
         width: auto;
         padding:5px;
         margin:0;
@@ -378,13 +376,13 @@ p{
     .card-title{
         margin:0px;
         padding:2px;
-        font-size: 0.7em;
+        font-size: 1.5em;
         overflow: hidden;
         flex-grow: 1;
         height: 0px;
     }
     .card-subtitle{
-        font-size: 0.5em;
+        font-size: 1em;
         padding:0px;
         
     }
@@ -403,19 +401,19 @@ p{
         margin:10px;
     }
     #campusdual-img{
-        height: 45px;
+        height: 80px;
         width: auto;
-        padding:0;
+        padding:0px;
     }
     #afundacion-img{
-        height: 45px;
+        height: 80px;
         width: auto;
         padding:0;
     }
     #fcoaguiar-img{
-        height: 40px;
+        height: 70px;
         width: auto;
-        padding:0;
+        padding:5px;
     }
     /* PROJECT LIST (MID-SIZED)*/
     #project-list{
@@ -424,7 +422,7 @@ p{
         flex-direction: row;
         overflow-x: auto;
         overflow-y:visible;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
     .project-banner{
         position:relative;
@@ -445,7 +443,7 @@ p{
         text-decoration: none;    
     }
     .project-title{
-        font-size: 0.7em;
+        font-size: 1.5em;
         margin:0;
         padding:5px;
     }
@@ -455,15 +453,13 @@ p{
         padding:0;
     }
     .project-tag{
-        bottom: -1.5em;
-        position: absolute;
         background-color: black;
         color:white;
-        border-radius: 0.5em;
+        border-radius: 0.8em;
         text-transform: uppercase;
         font-weight: 700;
-        font-size:0.3em;
-        padding: 5px;
+        font-size:0.5em;
+        padding: 8px;
     }
     /*      
     
