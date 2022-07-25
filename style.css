@@ -139,10 +139,11 @@ p{
     flex: 1 0 auto;
     align-items: center;
     border-radius:30px;
-    outline: 15px solid black;
+    /* outline: 15px solid black; */
+    border: 15px solid black;
     flex-grow: 1;
     padding: 20px;
-    margin:20px;
+    margin:5px;
     width: 50vw;
     height: 50vw;
 }
@@ -214,11 +215,14 @@ p{
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    margin:50px 20px;
+
+    margin:50px 5px;
+    border:16px solid black;
+    border-radius: 40px;
+    
     background-color: white;
     color:black;
-    outline:16px solid black;
-    border-radius: 40px;
+    padding:15px;
     font-size: xx-large;
     width: auto;
     height: 30vw;
@@ -392,8 +396,8 @@ p{
         flex-direction: column;
         
         align-items: center;
-        border-radius:10px;
-        outline: 3px solid black;
+        border-radius:2vh;
+        border: 6px solid black;
         flex-grow: 0;
         padding: 15px;
         height: 25vh;
@@ -430,11 +434,11 @@ p{
         flex-direction: column;
         justify-content:center;
         align-items: center;
-        margin:20px 10px;
+        margin:20px 5px;
         background-color: white;
         color:black;
-        outline: 0.1em solid black;
-        border-radius: 10px;
+        border: 0.2em solid black;
+        border-radius: 2vh;
         font-size: xx-large;
         width: auto;
         height: 15vh;
