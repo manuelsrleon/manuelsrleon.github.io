@@ -85,6 +85,11 @@ h1{
     padding: 30px;
     font-size: 6em;
 }
+h1.appearing{
+    opacity: 1 !important;
+    transform: translateX(50px);
+    transition:2s;
+}
 h2{
     margin: 0;
     padding: 30px;
@@ -120,10 +125,6 @@ p{
     font-size:2vh;
 }
 /* STUDIES */
-#studies-segment{
-    color: white;
-    
-}
 #studies-chrono{
     display: flex;
     overflow-x: auto;
@@ -315,7 +316,7 @@ p{
 
 /* <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a> */
 .presentation-title{
-    padding:10%;
+    margin:20px;
 }
  @media only screen and (max-resolution: 200dpi ){
     h1{
