@@ -307,7 +307,10 @@ p{
 
 .rcolor{
     width: 25px;
-    
+}
+
+#fuck-me{
+    transform: rotate(270deg);
 }
 .rcolor:hover{
     /* transform:scale(2); */
@@ -350,7 +353,6 @@ p{
     }
     .rcolor{
         width: 20px;
-        
     }
     .sm-button{
         width: 5vh;
