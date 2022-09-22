@@ -239,6 +239,7 @@ p{
     box-shadow: 5px 5px#222, 10px 10px#222, 15px 15px #222, 20px 20px#222; 
     
 }
+
 .project-tag{
     background-color: #202020;
     color:white;
@@ -317,9 +318,6 @@ p{
     width: 25px;
 }
 
-#fuck-me{
-    transform: rotate(270deg);
-}
 .rcolor:hover{
     /* transform:scale(2); */
     transition: 0.2s;
@@ -585,7 +583,12 @@ p{
         border: 8px solid white;
         background-color: #000;
     }
-
+    .project-banner:hover{
+        transform:translate(-20px, -20px);
+        transition:0.5s;
+        box-shadow: 5px 5px#fff, 10px 10px#fff, 15px 15px #fff, 20px 20px#fff; 
+        
+    }
     .project-title{
         color: white;
     }
