@@ -126,6 +126,7 @@ p{
 }
 /* STUDIES */
 #studies-chrono{
+
     display: flex;
     overflow-x: auto;
     
@@ -148,6 +149,7 @@ p{
     width: 50vw;
     height: 50vw;
 }
+
 .studies-degree>img{
     height: 6vh;
     width: auto;
@@ -216,7 +218,7 @@ p{
     flex-direction: column;
     justify-content:center;
     align-items: center;
-
+    
     margin:50px 5px;
     border:16px solid black;
     border-radius: 40px;
@@ -230,6 +232,12 @@ p{
     flex: 1 0 auto;
     overflow-y: visible;
     text-decoration: none;    
+}
+.project-banner:hover{
+    transform:translate(-20px, -20px);
+    transition:0.5s;
+    box-shadow: 5px 5px#222, 10px 10px#222, 15px 15px #222, 20px 20px#222; 
+    
 }
 .project-tag{
     background-color: #202020;
@@ -369,6 +377,7 @@ p{
     }
     
     #studies-chrono{
+        padding:0% 5%;
         display: flex;
         flex-wrap: wrap;
         
@@ -424,6 +433,7 @@ p{
     }
     /* PROJECT LIST (MID-SIZED)*/
     #project-list{
+        padding:5%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
@@ -437,7 +447,7 @@ p{
         flex-direction: column;
         justify-content:center;
         align-items: center;
-        margin:20px 5px;
+        margin:10px 5px;
         background-color: white;
         color:black;
         border: 0.2em solid black;
@@ -445,9 +455,15 @@ p{
         font-size: xx-large;
         width: auto;
         height: 15vh;
-        flex: 1 0 auto;
+        flex: 0 0 auto;
         overflow-y: visible;
         text-decoration: none;    
+    }
+    .project-banner:hover{
+        transform:translate(-20px, -20px);
+        transition:0.5s;
+        box-shadow: 5px 5px#222, 10px 10px#222, 15px 15px #222, 20px 20px#222; 
+        
     }
     .project-title{
         font-size: 1.5em;
@@ -569,6 +585,7 @@ p{
         border: 8px solid white;
         background-color: #000;
     }
+
     .project-title{
         color: white;
     }
