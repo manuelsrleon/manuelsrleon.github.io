@@ -637,7 +637,7 @@ li{
     }
     
 }
-@media (prefers-color-scheme: dark){
+/*@media (prefers-color-scheme: dark){
     html{
         background-color: black;
         color:white;
@@ -680,7 +680,7 @@ li{
         color: black;
         background-color: white;
     }
-}
+}*/
 .wide-degree-img{
     width: 20vh;
     margin:5%;
