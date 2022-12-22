@@ -1,8 +1,8 @@
 
 html{
     font-family: 'DM Sans', sans-serif;
-    color: white;
-    background-color: #202020;
+    color: black;
+    background-color: white;
     margin: 0;
     padding: 0;
     max-width: 100vw;
@@ -334,7 +334,7 @@ li{
     border-radius: 200px;
     display: flex;
     flex-direction: row;
-    background-color: white;
+    background-color: black;
     float: right;
     
 }
@@ -343,6 +343,7 @@ li{
     height: 7em;
     border-radius: 100px;
 
+    filter: invert();
     flex:1;
 }
 .sm-button:hover{
@@ -619,22 +620,6 @@ li{
 }
 
 @media (prefers-color-scheme: light){
-    html{
-        background-color: white;
-        color:black;
-    }   
-    #links{
-        background-color: black;
-    }
-    .sm-button{
-        filter:invert();
-    }
-    .card-title{
-        color:black;
-    }
-    .card-subtitle{
-        color: black;
-    }
     
 }
 /*@media (prefers-color-scheme: dark){
