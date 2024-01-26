@@ -136,7 +136,7 @@ li{
 }
 #experience-timeline{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-size: 30px;
     margin:5vw;
 }
@@ -147,6 +147,7 @@ li{
     padding: 1em;
     border-radius: 0.7em;
     list-style-type: none;
+    margin:1em;
 }
 .job-tech-stack{
     padding-left: 5%;
@@ -178,12 +179,13 @@ li{
     align-items: center;
     border-radius:30px;
     /* outline: 15px solid black; */
-    border: 1vw solid black;
     flex-grow: 1;
     padding: 20px;
     margin:5px;
     width: 50vw;
     height: 50vw;
+    background-color: black;
+    color:white;
 }
 
 .studies-degree>img{
@@ -191,6 +193,7 @@ li{
     width: 30vw;
     padding:15px;
     margin:0;
+    filter:invert();
 }
 .card-title{
     margin:0px;
